@@ -9,7 +9,7 @@ local is_synapse_function = isexecutorclosure
 local setRP = function() end
 local destroyRP = function() end
 ---@diagnostic disable: invalid-class-name
-print("lol")
+print("nyn is testing")
 local statusEvent = getgenv().ah_statusEvent;
 
 local function setStatus(...)
@@ -28,7 +28,7 @@ local HttpService = game:GetService('HttpService');
 if (not game:IsLoaded()) then
     setStatus('Waiting for game to load');
     game.Loaded:Wait();
-end;
+return;
 
 --setreadonly(syn, false);
 
