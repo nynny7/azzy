@@ -9,7 +9,7 @@ local is_synapse_function = isexecutorclosure
 local setRP = function() end
 local destroyRP = function() end
 ---@diagnostic disable: invalid-class-name
-print("nyn is testing")
+print("lol")
 local statusEvent = getgenv().ah_statusEvent;
 
 local function setStatus(...)
