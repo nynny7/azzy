@@ -28,7 +28,7 @@ local HttpService = game:GetService('HttpService');
 if (not game:IsLoaded()) then
     setStatus('Waiting for game to load');
     game.Loaded:Wait();
-return;
+end;
 
 --setreadonly(syn, false);
 
